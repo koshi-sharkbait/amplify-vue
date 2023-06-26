@@ -1,0 +1,23 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^2.4.25",
+    "aws-amplify": "^4.3.42",
+    "maplibre-gl": "^2.4.0",
+    "maplibre-gl-js-amplify": "^2.1.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.8"
+  }
+}
