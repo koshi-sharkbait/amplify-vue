@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "viteproject",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authviteproject0d9f7683",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

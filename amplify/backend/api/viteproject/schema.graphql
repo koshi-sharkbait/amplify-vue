@@ -1,0 +1,13 @@
+type Message
+  @model (
+    mutations: {create: "createMessage"}
+    subscriptions:  {onCreate: ["onCreateMessage"]}
+  )
+  @auth(rules: [
+    {allow: owner, operations:[read, create, delete]}
+    {allow: private,  operations:[read]}
+  ])
+{
+  id: ID!
+  content: String!
+}
