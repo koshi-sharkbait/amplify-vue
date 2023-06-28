@@ -4,7 +4,7 @@
       Welcome to Amplify Vue Workshop, {{ username }} ! Click
       <a href="https://catalog.workshops.aws/amplify-vue3/ja-JP"> here </a> for hands-on.
     </h1>
-    <!--<img src="https://d15nimfww918g4.cloudfront.net/img.png" />-->
+    <img src="https://d15nimfww918g4.cloudfront.net/img.png" />
     <p>
       かの Larry Wall は、プログラマの三大美徳として怠惰（Laziness）、短気（Impatence）、傲慢（Hubis）を挙げました。
       ここで「怠惰である」とは、例えば効率化や自動化によって面倒なことを何度もしないで済むようにし、開発の効率を上げることを意味します。

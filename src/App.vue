@@ -9,8 +9,6 @@
             <ul class="list">
               <li><router-link class="routerLink" to="/">Home</router-link></li>
               <li><router-link class="routerLink" to="/chat">Chat</router-link></li>
-              <li><router-link class="routerLink" to="/ai">AI</router-link></li>
-              <li><router-link class="routerLink" to="/geo">Geo</router-link></li>
             </ul>
           </nav>
           <!-- 追加 2 -->
