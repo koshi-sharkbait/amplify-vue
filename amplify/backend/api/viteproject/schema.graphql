@@ -1,7 +1,7 @@
 type Message
   @model (
     mutations: {create: "createMessage"}
-    subscriptions:  {onCreate: ["onCreateMessage"]}
+    subscriptions:   {onCreate: ["onCreateMessage"]}
   )
   @auth(rules: [
     {allow: owner, operations:[read, create, delete]}
